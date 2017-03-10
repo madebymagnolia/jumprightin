@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jump Right In</title>
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body class="state-app-launcher">
+
+    <div class="container">
+
+      <div class="screen screen-app-launcher">
+        <ul>
+          <li class="sport focus"></li>
+          <li class="iplayer"></li>
+          <li class="news"></li>
+        </ul>
+      </div>
+
+      <div class="screen screen-startcontinue">
+        <div class="buttons">
+          <div class="button focus">Continue from here</div>
+          <div class="button">Start from beginning</div>
+        </div>
+      </div>
+
+      <div class="screen screen-iplayermenu">
+        <img src="img/iplayermenu.png" alt="">
+      </div>
+
+      <div class="screen screen-iplayer-home">
+
+            <div class="bottombar">
+              <img src="img/iplayer.svg" class="logo">
+              <div class="press">
+                <img src="img/buttonmash.gif" alt="">Press enter to watch
+              </div>              
+              <div class="hold">
+                <img src="img/buttonhold.gif" alt="">Hold enter for menu
+              </div>              
+              <div class="channel">
+                <img src="img/updown.png" alt="">Change programme
+              </div>
+            </div>
+
+            <div class="videos">
+                <video loop id="eastenders"><source src="video/eastenders.mp4" type="video/mp4"></video>
+                <video loop id="w1a"><source src="video/w1a.mp4" type="video/mp4"></video>
+                <video loop id="letitshine"><source src="video/letitshine.mp4" type="video/mp4"></video>
+                <video loop id="motd"><source src="video/motd.mp4" type="video/mp4"></video>
+            </div>
+
+      </div>
+
+    </div>
+
+  </body>
+  <script src="vendor.js"></script>
+  <script src="./js/main.js"></script>
+</html>
