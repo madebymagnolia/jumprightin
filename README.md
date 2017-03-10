@@ -2,7 +2,7 @@
 
 **There is a substantial hurdle between a user and a piece of on demand video: pressing select**. 
 
-Choosing to play a programme or film and committing two minutes (or more) of your life to “checking it out” feels like a gargantuan undertaking in 2017. The result: stalemate.
+Choosing to play a programme or film and committing two minutes (or more) of your life to “checking it out” feels like a gargantuan undertaking in 2017. The result: paralysis.
 
 The concept presented here aims to address the problem by dropping a user directly into content as soon as they launch iPlayer. 
 
